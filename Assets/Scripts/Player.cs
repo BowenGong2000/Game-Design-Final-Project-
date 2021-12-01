@@ -1,18 +1,45 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class Player : MonoBehaviour
 {
     public JoystickMovement joystickMovement;
     public float movespeed;
     private Rigidbody2D rb;
+    //jump
+    public Transform feet;
+    public bool grounded = false;
+    public LayerMask groundLayer;
+    public Vector2 MoveDir;
+
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
+    void Update(){
+        //Jump
+        grounded = Physics2D.OverlapCircle(feet.position, .3f, groundLayer);
+        if (CrossPlatformInputManager.GetButtonDown("Jump") && !PublicVars.Jump)
+        {
+            rb.AddForce(Vector2.up*3000f);
+            PublicVars.Jump = true;
+            
+        }
 
+        if (grounded)
+        {
+            PublicVars.Jump = false;
+            PublicVars.doubleJump = false;
+        }
+         if (CrossPlatformInputManager.GetButtonDown("Jump") && PublicVars.Jump && PublicVars.ableToDoubleJump && !PublicVars.doubleJump)
+        {
+            rb.AddForce(Vector2.up*700f);
+            PublicVars.doubleJump = true;
+        }
+    }
     void FixedUpdate()
     {
         if (joystickMovement.joystickVec.x != 0) // move when detecting joystick movement in x direction
@@ -24,4 +51,5 @@ public class Player : MonoBehaviour
             rb.velocity = Vector2.zero;
         }
     }
+
 }
