@@ -26,20 +26,22 @@ public class Player : MonoBehaviour
         grounded = Physics2D.OverlapCircle(feet.position, .3f, groundLayer);
         if (CrossPlatformInputManager.GetButtonDown("Jump") && !PublicVars.Jump)
         {
-            rb.AddForce(Vector2.up*3000f);
+            rb.AddForce(Vector2.up*5000f);
             PublicVars.Jump = true;
-            
+            rb.gravityScale = 15f;
         }
 
         if (grounded)
         {
             PublicVars.Jump = false;
             PublicVars.doubleJump = false;
+            rb.gravityScale = 15f;
         }
          if (CrossPlatformInputManager.GetButtonDown("Jump") && PublicVars.Jump && PublicVars.ableToDoubleJump && !PublicVars.doubleJump)
         {
-            rb.AddForce(Vector2.up*700f);
+            rb.AddForce(Vector2.up*5000f);
             PublicVars.doubleJump = true;
+            rb.gravityScale = 30f;
         }
     }
     void FixedUpdate()
