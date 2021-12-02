@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -19,7 +20,8 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
-    void Update(){
+    void Update()
+    {
         //Jump
         grounded = Physics2D.OverlapCircle(feet.position, .3f, groundLayer);
         if (CrossPlatformInputManager.GetButtonDown("Jump") && !PublicVars.Jump)
@@ -49,6 +51,15 @@ public class Player : MonoBehaviour
         else // remain still
         {
             rb.velocity = Vector2.zero;
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "BossFight")
+        {
+            SceneManager.LoadScene("BossFight" + PublicVars.levelToLoad);
+            PublicVars.levelToLoad ++;
         }
     }
 

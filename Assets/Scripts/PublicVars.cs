@@ -7,4 +7,5 @@ public class PublicVars : MonoBehaviour
     public static bool ableToDoubleJump = true;
     public static bool Jump = false;
     public static bool doubleJump = false;
+    public static int levelToLoad = 1;
 }
