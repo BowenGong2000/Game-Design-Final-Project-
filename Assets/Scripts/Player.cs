@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
             PublicVars.Jump = true;
             rb.gravityScale = 15f;
             // enable the jump animation
-            // playerAnimator.SetBool("IsJumping", true);
+            playerAnimator.SetBool("IsJumping", true);
         }
 
         if (grounded)
@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
             PublicVars.doubleJump = false;
             rb.gravityScale = 15f;
             // disable the jump animation
-            // playerAnimator.SetBool("IsJumping", false);
+            playerAnimator.SetBool("IsJumping", false);
         }
          if (CrossPlatformInputManager.GetButtonDown("Jump") && PublicVars.Jump && PublicVars.ableToDoubleJump && !PublicVars.doubleJump)
         {
@@ -51,7 +51,7 @@ public class Player : MonoBehaviour
             PublicVars.doubleJump = true;
             rb.gravityScale = 30f;
             // enable the jump animation
-            // playerAnimator.SetBool("IsJumping", true);
+            playerAnimator.SetBool("IsJumping", true);
         }
     }
     void FixedUpdate()
@@ -94,6 +94,11 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "BossFight")
         {
             SceneManager.LoadScene("BossFight" + PublicVars.levelToLoad);
+            PublicVars.levelToLoad ++;
+        }
+        if (other.gameObject.tag == "LevelGate")
+        {
+            SceneManager.LoadScene("Level" + PublicVars.levelToLoad);
             PublicVars.levelToLoad ++;
         }
     }
