@@ -89,18 +89,18 @@ public class Player : MonoBehaviour
         transform.localScale = theScale;
     }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "BossFight")
-        {
-            SceneManager.LoadScene("BossFight" + PublicVars.levelToLoad);
-            PublicVars.levelToLoad ++;
-        }
-        if (other.gameObject.tag == "LevelGate")
-        {
-            SceneManager.LoadScene("Level" + PublicVars.levelToLoad);
-            PublicVars.levelToLoad ++;
-        }
-    }
+    //void OnTriggerEnter2D(Collider2D other)
+    //{
+    //    if (other.gameObject.tag == "BossFight")
+    //    {
+    //        SceneManager.LoadScene("BossFight" + PublicVars.levelToLoad);
+    //        PublicVars.levelToLoad ++;
+    //    }
+    //    if (other.gameObject.tag == "LevelGate")
+    //    {
+    //        SceneManager.LoadScene("Level" + PublicVars.levelToLoad);
+    //        PublicVars.levelToLoad ++;
+    //    }
+    //}
 
 }
