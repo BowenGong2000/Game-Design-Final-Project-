@@ -17,6 +17,16 @@ public class ForestBoss : MonoBehaviour
     //test
     public float y = 60f;
     public float x = 50f;
+
+    // phase 2
+    //public float smoothVal;
+    public float speed = 15f;
+    private int reverse = -1;
+
+    public bool move  = true;
+    // animation
+    public Animator anim;
+
     private void Jump()
     {
         if (onGround && !jump){
@@ -25,30 +35,65 @@ public class ForestBoss : MonoBehaviour
         }
     
     }
+
+    void Start()
+    {
+        //StartCoroutine(idle());
+        StartCoroutine(angry());
+    }
     void Update(){
-        dist = Mathf.Abs(player.transform.position.x - transform.position.x);
-        // if (onGround)
-        // {
-        //     this.rb.velocity = Vector2.zero;
-        // }
-        if (dist < 8){
-            jump = true;
-        }
-        else if (dist >= 8){
-            jump = false;
-        }
+        //dist = Mathf.Abs(player.transform.position.x - transform.position.x);
+        //PublicVars.hp -= 1;
+        dist = (player.transform.position.x - transform.position.x);
     }
     void FixedUpdate(){
-        onGround = Physics2D.OverlapCircle(bossFeet.position, .2f, groundLayer);
-        if (jump)
-        {
-            if (onGround)
-            {
-                rb.velocity = new Vector2(0, 0);
-            }
-        }
-        
-        Jump();
        
     }
+
+    IEnumerator idle(){
+        yield return new WaitForSeconds(3);
+        anim.SetBool("Blow", true);
+        yield return new WaitForSeconds(3);
+        anim.SetBool("Blow", false);
+        if (PublicVars.hp < 40)
+        {
+            StartCoroutine(superAngry());
+        }
+
+        else if (PublicVars.hp < 70)
+        {
+            StartCoroutine(angry());
+        }
+
+        else
+        {
+            StartCoroutine(idle());
+        }
+    }
+
+    IEnumerator angry()
+    {
+        yield return new WaitForSeconds(2);
+        
+        anim.SetBool("Angry", true);
+        if (move){
+            Vector2 tempPos = new Vector2(player.transform.position.x, -2.02f);
+            transform.position = Vector2.MoveTowards(transform.position, tempPos, speed * Time.deltaTime);
+            yield return new WaitForSeconds(speed * Time.deltaTime);
+            move = false;
+        }
+        else{
+
+        }
+        StartCoroutine(angry());
+    }
+
+    IEnumerator superAngry()
+    {
+        
+        anim.SetBool("SuperA", true);
+        yield return new WaitForSeconds(1);
+    }
+
+    
 }
