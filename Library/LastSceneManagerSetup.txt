@@ -1,5 +1,9 @@
 sceneSetups:
-- path: Assets/Scenes/Tutorial.unity
+<<<<<<< HEAD
+- path: Assets/Scenes/Cave-Boss.unity
+=======
+- path: Assets/Scenes/Forest-Boss.unity
+>>>>>>> c8a8700d3503bafa109ad3100a67fd08d39f474c
   isLoaded: 1
   isActive: 1
   isSubScene: 0
