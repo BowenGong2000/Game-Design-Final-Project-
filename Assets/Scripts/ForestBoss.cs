@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class ForestBoss : MonoBehaviour
 {
-    public float jumpForce;
-    public float horizontalForce;
     public GameObject player;
+    public Rigidbody2D playerRb;
     public Rigidbody2D rb;
     public bool onGround = false;
     public Transform bossFeet;
@@ -14,9 +13,9 @@ public class ForestBoss : MonoBehaviour
     public bool jump = false;
     public float dist;
     private Vector2 velocity;
-    //test
-    public float y = 60f;
-    public float x = 50f;
+    
+    //blow
+    public float blowSpeed;
 
     // phase 2
     //public float smoothVal;
@@ -27,19 +26,10 @@ public class ForestBoss : MonoBehaviour
     // animation
     public Animator anim;
 
-    private void Jump()
-    {
-        if (onGround && !jump){
-            var dir = player.transform.position.x < transform.position.x ? -1 : 1;
-            rb.AddForce(new Vector2(horizontalForce * dir, jumpForce));
-        }
-    
-    }
-
     void Start()
     {
-        //StartCoroutine(idle());
-        StartCoroutine(angry());
+        StartCoroutine(idle());
+        //StartCoroutine(angry());
     }
     void Update(){
         //dist = Mathf.Abs(player.transform.position.x - transform.position.x);
@@ -51,48 +41,49 @@ public class ForestBoss : MonoBehaviour
     }
 
     IEnumerator idle(){
-        yield return new WaitForSeconds(3);
-        anim.SetBool("Blow", true);
-        yield return new WaitForSeconds(3);
-        anim.SetBool("Blow", false);
+        yield return new WaitForSeconds(2);
+        Debug.Log(PublicVars.hp);
         if (PublicVars.hp < 40)
         {
+            Debug.Log("superAngry");
             StartCoroutine(superAngry());
         }
 
         else if (PublicVars.hp < 70)
         {
+            Debug.Log("angry");
             StartCoroutine(angry());
         }
-
         else
         {
+            Debug.Log("blow");
+            anim.SetBool("Blow", true);
+            PublicVars.blow = true;
+            yield return new WaitForSeconds(3);
+            anim.SetBool("Blow", false);
+            PublicVars.blow = false;
             StartCoroutine(idle());
         }
     }
 
     IEnumerator angry()
     {
-        yield return new WaitForSeconds(2);
+
         
         anim.SetBool("Angry", true);
-        if (move){
-            Vector2 tempPos = new Vector2(player.transform.position.x, -2.02f);
-            transform.position = Vector2.MoveTowards(transform.position, tempPos, speed * Time.deltaTime);
-            yield return new WaitForSeconds(speed * Time.deltaTime);
-            move = false;
-        }
-        else{
-
-        }
-        StartCoroutine(angry());
+        PublicVars.leaveSpawn = true;
+        yield return new WaitForSeconds(4);
+        PublicVars.leaveSpawn = false;
+        StartCoroutine(idle());
     }
 
     IEnumerator superAngry()
     {
-        
-        anim.SetBool("SuperA", true);
         yield return new WaitForSeconds(1);
+        anim.SetBool("SuperA", true);
+        PublicVars.phase3 = true;
+
+        StartCoroutine(idle());
     }
 
     

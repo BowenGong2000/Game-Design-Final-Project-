@@ -10,5 +10,8 @@ public class PublicVars : MonoBehaviour
     public static int levelToLoad = 1;
     // forest boss
     public static int hp = 100;
-    public static bool leaveSpawn = true;
+    public static bool leaveSpawn = false;
+    public static bool blow = false;
+    
+    public static bool phase3 = false;
 }

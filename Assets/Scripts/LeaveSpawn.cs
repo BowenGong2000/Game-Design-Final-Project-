@@ -21,8 +21,11 @@ public class LeaveSpawn : MonoBehaviour
     }
 
     void Spawn() {
-        if(PublicVars.leaveSpawn){
-            var newBat = GameObject.Instantiate(Leave, transform.position, Quaternion.identity);
+        if(PublicVars.leaveSpawn && transform.position.y < 0){
+            var newLeave = GameObject.Instantiate(Leave, transform.position, Quaternion.identity);
+        }
+        else if(PublicVars.phase3 && transform.position.y > 0){
+            var newLeave = GameObject.Instantiate(Leave, transform.position, Quaternion.identity);
         }
     }
 }

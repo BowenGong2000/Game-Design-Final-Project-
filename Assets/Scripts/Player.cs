@@ -59,14 +59,37 @@ public class Player : MonoBehaviour
     {   // move when detecting joystick movement in x direction
         if (joystickMovement.joystickVec.x != 0) 
         {
-            rb.velocity = new Vector2(joystickMovement.joystickVec.x * movespeed, 0);
+            
+            // forest boss blow
+            if (PublicVars.blow)
+            {
+                if (joystickMovement.joystickVec.x <= 0)
+                {
+                    rb.velocity = new Vector2(joystickMovement.joystickVec.x * movespeed * 3, 0);
+                    //rb.AddRelativeForce(new Vector2(-3, 0));
+                }
+                else
+                {
+                     rb.velocity = new Vector2(joystickMovement.joystickVec.x * movespeed / 3, 0);
+                }
+            }
+            else{
+                rb.velocity = new Vector2(joystickMovement.joystickVec.x * movespeed, 0);
+            }
+
             //activate the walking animation 
             playerAnimator.SetFloat("PlayerSpeed", Mathf.Abs(joystickMovement.joystickVec.x));
         }
         else // remain still
         {
-            rb.velocity = Vector2.zero;
+            if (PublicVars.blow)
+            {
+                rb.velocity = new Vector2 (-5, 0);
+            }
+            else{
+                rb.velocity = Vector2.zero;
             // deactivate walking animation
+            }
             playerAnimator.SetFloat("PlayerSpeed", 0);
         }
 
@@ -89,18 +112,23 @@ public class Player : MonoBehaviour
         transform.localScale = theScale;
     }
 
-    //void OnTriggerEnter2D(Collider2D other)
-    //{
-    //    if (other.gameObject.tag == "BossFight")
-    //    {
-    //        SceneManager.LoadScene("BossFight" + PublicVars.levelToLoad);
-    //        PublicVars.levelToLoad ++;
-    //    }
-    //    if (other.gameObject.tag == "LevelGate")
-    //    {
-    //        SceneManager.LoadScene("Level" + PublicVars.levelToLoad);
-    //        PublicVars.levelToLoad ++;
-    //    }
-    //}
+    void OnTriggerEnter2D(Collider2D other)
+    {
+       if (other.gameObject.tag == "BossFight")
+       {
+           SceneManager.LoadScene("BossFight" + PublicVars.levelToLoad);
+           PublicVars.levelToLoad ++;
+       }
+       if (other.gameObject.tag == "LevelGate")
+       {
+           SceneManager.LoadScene("Level" + PublicVars.levelToLoad);
+           PublicVars.levelToLoad ++;
+       }
+
+       if (other.gameObject.tag == "ForestBoss")
+       {
+           PublicVars.hp -= 10;
+       }
+    }
 
 }

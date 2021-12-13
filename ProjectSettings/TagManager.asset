@@ -8,6 +8,7 @@ TagManager:
   - LevelGate
   - BossFight
   - New tag
+  - ForestBoss
   layers:
   - Default
   - TransparentFX
