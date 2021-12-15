@@ -11,6 +11,7 @@ TagManager:
   - ForestBoss
   - DoubleJump
   - Bullet
+  - Leave
   layers:
   - Default
   - TransparentFX

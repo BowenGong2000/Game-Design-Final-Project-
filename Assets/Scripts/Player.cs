@@ -177,6 +177,11 @@ public class Player : MonoBehaviour
            takeDamage(10);
        }
 
+       if (other.gameObject.tag == "Leave")
+       {
+           takeDamage(5);
+       }
+
        if (other.gameObject.tag == "DoubleJump")
        {
            PublicVars.ableToDoubleJump = true;

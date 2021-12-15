@@ -53,13 +53,13 @@ public class ForestBoss : MonoBehaviour
         yield return new WaitForSeconds(2);
         //Debug.Log(health);
         //takeDamage(1);
-        if (PublicVars.health < 40)
+        if (PublicVars.health < 50)
         {
             Debug.Log("superAngry");
             StartCoroutine(superAngry());
         }
 
-        else if (PublicVars.health< 70)
+        else if (PublicVars.health< 80)
         {
             Debug.Log("angry");
             StartCoroutine(angry());
@@ -77,7 +77,7 @@ public class ForestBoss : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other){
         if (other.tag == "Bullet"){
-            takeDamage(10);
+            takeDamage(5);
             Destroy(other.gameObject);
         }
     }
