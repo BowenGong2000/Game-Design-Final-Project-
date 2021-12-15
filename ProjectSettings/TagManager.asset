@@ -10,6 +10,7 @@ TagManager:
   - New tag
   - ForestBoss
   - DoubleJump
+  - Bullet
   layers:
   - Default
   - TransparentFX

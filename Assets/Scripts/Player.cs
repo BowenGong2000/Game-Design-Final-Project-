@@ -22,9 +22,27 @@ public class Player : MonoBehaviour
     //Animations
     public Animator playerAnimator;
 
+    //health system
+    public HealthBar hBar;
+    public int maxHealth = 100;
+    public int curHealth = 100;
+
+    //bullet
+    public GameObject bulletPrefab;
+    //public GameObject bulletPrefab2;
+    int bulletForce = 50;
+    public Transform spawnPos;
+    public int levelToLoad = 1;
+    public Camera cam;
+
+    // audio source
+    public AudioClip bulletSnd;
+    AudioSource _audioSource;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        hBar.SetHealth(maxHealth);
     }
     void Update()
     {
@@ -59,7 +77,28 @@ public class Player : MonoBehaviour
             playerAnimator.SetBool("IsJumping", false);
         }
 
+        // attack
+        float bulletAngle = 1;
 
+        spawnPos.rotation = Quaternion.Euler(0, 0, bulletAngle);
+        if (CrossPlatformInputManager.GetButtonDown("Attack"))
+        {
+            StartCoroutine(attack());
+            
+        } 
+
+    }
+
+    IEnumerator attack()
+    {
+        playerAnimator.SetBool("isAttack", true);
+        Debug.Log("Attack!!!!!!!!!");
+        //_audioSource.PlayOneShot(bulletSnd);
+            GameObject newbullet = Instantiate(bulletPrefab, spawnPos.position, 
+                Quaternion.Euler(0, 0, 1));
+            newbullet.GetComponent<Rigidbody2D>().velocity = spawnPos.right * bulletForce; 
+        yield return new WaitForSeconds(0.03f);
+        playerAnimator.SetBool("isAttack", false);
     }
     void FixedUpdate()
 
@@ -135,13 +174,19 @@ public class Player : MonoBehaviour
         //tag
        if (other.gameObject.tag == "ForestBoss")
        {
-           PublicVars.hp -= 10;
+           takeDamage(10);
        }
 
        if (other.gameObject.tag == "DoubleJump")
        {
            PublicVars.ableToDoubleJump = true;
        }
+    }
+
+    void takeDamage(int damage)
+    {
+        curHealth -= damage;
+        hBar.SetHealth(curHealth);
     }
 
 }

@@ -26,30 +26,40 @@ public class ForestBoss : MonoBehaviour
     // animation
     public Animator anim;
 
+    // health system
+    public HealthBar healthBar;
+    public float correction;
+    
+    
     void Start()
     {
+        healthBar.SetHealth(100);
         StartCoroutine(idle());
         //StartCoroutine(angry());
     }
     void Update(){
         //dist = Mathf.Abs(player.transform.position.x - transform.position.x);
-        //PublicVars.hp -= 1;
+        
         dist = (player.transform.position.x - transform.position.x);
-    }
-    void FixedUpdate(){
-       
-    }
+
+        // health bar
+        Vector3 monsterPosition = new Vector3(transform.position.x, 
+        transform.position.y + correction, transform.position.z); // we need to correct the position of the bar
+        healthBar.GetComponent<Transform>().position = Camera.main.WorldToScreenPoint(monsterPosition); 
+        healthBar.SetHealth(PublicVars.health);
+        }
 
     IEnumerator idle(){
         yield return new WaitForSeconds(2);
-        Debug.Log(PublicVars.hp);
-        if (PublicVars.hp < 40)
+        //Debug.Log(health);
+        //takeDamage(1);
+        if (PublicVars.health < 40)
         {
             Debug.Log("superAngry");
             StartCoroutine(superAngry());
         }
 
-        else if (PublicVars.hp < 70)
+        else if (PublicVars.health< 70)
         {
             Debug.Log("angry");
             StartCoroutine(angry());
@@ -65,10 +75,15 @@ public class ForestBoss : MonoBehaviour
             StartCoroutine(idle());
         }
     }
+    private void OnTriggerEnter2D(Collider2D other){
+        if (other.tag == "Bullet"){
+            takeDamage(10);
+            Destroy(other.gameObject);
+        }
+    }
 
     IEnumerator angry()
     {
-
         
         anim.SetBool("Angry", true);
         PublicVars.leaveSpawn = true;
@@ -86,5 +101,14 @@ public class ForestBoss : MonoBehaviour
         StartCoroutine(idle());
     }
 
+    public void takeDamage(int damage)
+    {
+        PublicVars.health -= damage;
+        healthBar.SetHealth(PublicVars.health);
+        if (PublicVars.health <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
     
 }
