@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
     public bool grounded = false;
     public LayerMask groundLayer;
     public Vector2 MoveDir;
+    public float jumpHeight = 5f;
+    public float jumpForce = 500;
 
     //Animations
     public Animator playerAnimator;
@@ -26,13 +28,24 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
-        //Jump
+        
         grounded = Physics2D.OverlapCircle(feet.position, .3f, groundLayer);
-        if (CrossPlatformInputManager.GetButtonDown("Jump") && !PublicVars.Jump)
+        if (CrossPlatformInputManager.GetButtonDown("Jump") && !PublicVars.Jump && grounded)
         {
             rb.AddForce(Vector2.up*5000f);
             PublicVars.Jump = true;
-            rb.gravityScale = 15f;
+            rb.gravityScale = 15;
+            // enable the jump animation
+            playerAnimator.SetBool("IsJumping", true);
+            Debug.Log("Jump");
+        } 
+        else if (CrossPlatformInputManager.GetButtonDown("Jump") && PublicVars.ableToDoubleJump 
+                && !PublicVars.doubleJump && !grounded)
+        {
+            Debug.Log("DoubleJump");
+            rb.AddForce(Vector2.up*8000f);
+            PublicVars.doubleJump = true;
+            rb.gravityScale = 15;
             // enable the jump animation
             playerAnimator.SetBool("IsJumping", true);
         }
@@ -41,22 +54,17 @@ public class Player : MonoBehaviour
         {
             PublicVars.Jump = false;
             PublicVars.doubleJump = false;
-            rb.gravityScale = 15f;
+            rb.gravityScale = 15;
             // disable the jump animation
             playerAnimator.SetBool("IsJumping", false);
         }
-         if (CrossPlatformInputManager.GetButtonDown("Jump") && PublicVars.Jump && PublicVars.ableToDoubleJump && !PublicVars.doubleJump)
-        {
-            rb.AddForce(Vector2.up*5000f);
-            PublicVars.doubleJump = true;
-            rb.gravityScale = 30f;
-            // enable the jump animation
-            playerAnimator.SetBool("IsJumping", true);
-        }
+
+
     }
     void FixedUpdate()
 
-    {   // move when detecting joystick movement in x direction
+    {   //rb = GetComponent<Rigidbody2D>();
+        // move when detecting joystick movement in x direction
         if (joystickMovement.joystickVec.x != 0) 
         {
             
@@ -124,10 +132,15 @@ public class Player : MonoBehaviour
            SceneManager.LoadScene("Level" + PublicVars.levelToLoad);
            PublicVars.levelToLoad ++;
        }
-
+        //tag
        if (other.gameObject.tag == "ForestBoss")
        {
            PublicVars.hp -= 10;
+       }
+
+       if (other.gameObject.tag == "DoubleJump")
+       {
+           PublicVars.ableToDoubleJump = true;
        }
     }
 
