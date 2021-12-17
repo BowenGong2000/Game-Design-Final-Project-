@@ -47,6 +47,7 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
+        //Debug.Log(PublicVars.blow);
         grounded = Physics2D.OverlapCircle(feet.position, .3f, groundLayer);
         if (CrossPlatformInputManager.GetButtonDown("Jump") && !PublicVars.Jump && grounded)
         {
