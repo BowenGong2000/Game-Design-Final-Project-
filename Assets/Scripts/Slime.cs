@@ -16,12 +16,17 @@ public class Slime : MonoBehaviour
     public float distance = 2f;
     //public HealthBar hBar;// slime's health bar
     // Start is called before the first frame update
+
+    // audio source
+    public AudioClip bulletSnd;
+    AudioSource _audioSource;
     void Start()
     {
         //spRenderer = GetComponent<SpriteRenderer>();
         slimeLife = MaxSlimeLife;
         //hBar.SetLife(slimeLife, MaxSlimeLife);
         startX = transform.position.x;
+        _audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -52,6 +57,7 @@ public class Slime : MonoBehaviour
         slimeLife -= 1;
         if (slimeLife <= 0)
         {
+            _audioSource.PlayOneShot(bulletSnd);
             Destroy(this.gameObject);
         }
     }

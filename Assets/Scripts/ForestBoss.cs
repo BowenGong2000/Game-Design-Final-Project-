@@ -40,7 +40,7 @@ public class ForestBoss : MonoBehaviour
     }
     void Update(){
         //dist = Mathf.Abs(player.transform.position.x - transform.position.x);
-        
+        if (PauseMenu.GameIsPaused) return;
         dist = (player.transform.position.x - transform.position.x);
 
         // health bar

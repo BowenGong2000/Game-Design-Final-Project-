@@ -39,14 +39,26 @@ public class Player : MonoBehaviour
     public AudioClip bulletSnd;
     AudioSource _audioSource;
 
+    // reposition
+    public float reX;
+    public float reY;
+    public float posY;
+
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         hBar.SetHealth(maxHealth);
+        _audioSource = GetComponent<AudioSource>();
     }
     void Update()
     {
+        if (PauseMenu.GameIsPaused) return;
+        // relocate
+        if (transform.localPosition.y <= posY){
+            RePosition();
+            takeDamage(5);
+        }
         //Debug.Log(PublicVars.blow);
         grounded = Physics2D.OverlapCircle(feet.position, .3f, groundLayer);
         if (CrossPlatformInputManager.GetButtonDown("Jump") && !PublicVars.Jump && grounded)
@@ -94,10 +106,10 @@ public class Player : MonoBehaviour
     {
         playerAnimator.SetBool("isAttack", true);
         Debug.Log("Attack!!!!!!!!!");
-        //_audioSource.PlayOneShot(bulletSnd);
-            GameObject newbullet = Instantiate(bulletPrefab, spawnPos.position, 
+        _audioSource.PlayOneShot(bulletSnd);
+        GameObject newbullet = Instantiate(bulletPrefab, spawnPos.position, 
                 Quaternion.Euler(0, 0, 1));
-            newbullet.GetComponent<Rigidbody2D>().velocity = spawnPos.right * bulletForce; 
+        newbullet.GetComponent<Rigidbody2D>().velocity = spawnPos.right * bulletForce; 
         yield return new WaitForSeconds(0.03f);
         playerAnimator.SetBool("isAttack", false);
     }
@@ -193,7 +205,7 @@ public class Player : MonoBehaviour
 
     void OnCollisonEnter2D (Collider2D other)
     {
-        if (other.gameObject.tag == "CaveBoss" || other.gameObject.tag == "Leave" || other.gameObject.tag == "Burning")
+        if (other.gameObject.tag == "CaveBoss" || other.gameObject.tag == "Leave" || other.gameObject.tag == "ForestBoss")
        {
            takeDamage(5);
        }
@@ -208,6 +220,10 @@ public class Player : MonoBehaviour
            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
            curHealth = 100;
         }
+    }
+
+    public void RePosition(){
+        this.transform.position = new Vector2(reX,reY); 
     }
 
 }

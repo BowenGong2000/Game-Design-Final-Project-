@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Cave_Boss : MonoBehaviour
 {
@@ -55,6 +57,7 @@ public class Cave_Boss : MonoBehaviour
         if (PublicVars.hp <= 0)
         {
             Destroy(this.gameObject);
+            SceneManager.LoadScene("End");
         }
     }
 }
