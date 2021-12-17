@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
     public AudioClip bulletSnd;
     AudioSource _audioSource;
 
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -46,7 +47,6 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
-        
         grounded = Physics2D.OverlapCircle(feet.position, .3f, groundLayer);
         if (CrossPlatformInputManager.GetButtonDown("Jump") && !PublicVars.Jump && grounded)
         {
@@ -172,7 +172,7 @@ public class Player : MonoBehaviour
            PublicVars.levelToLoad ++;
        }
         //tag
-       if (other.gameObject.tag == "ForestBoss")
+       if (other.gameObject.tag == "ForestBoss" || other.gameObject.tag == "CaveBoss")
        {
            takeDamage(10);
        }
@@ -185,13 +185,28 @@ public class Player : MonoBehaviour
        if (other.gameObject.tag == "DoubleJump")
        {
            PublicVars.ableToDoubleJump = true;
+           Destroy(other.gameObject);
        }
+       
     }
+
+    void OnCollisonEnter2D (Collider2D other)
+    {
+        if (other.gameObject.tag == "CaveBoss" || other.gameObject.tag == "Leave" || other.gameObject.tag == "Burning")
+       {
+           takeDamage(5);
+       }
+    }    
 
     void takeDamage(int damage)
     {
         curHealth -= damage;
         hBar.SetHealth(curHealth);
+        if (curHealth <= 0)
+        {
+           SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+           curHealth = 100;
+        }
     }
 
 }

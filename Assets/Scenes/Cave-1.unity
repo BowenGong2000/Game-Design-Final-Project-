@@ -134,9 +134,9 @@ GameObject:
   - component: {fileID: 30545192}
   - component: {fileID: 30545191}
   - component: {fileID: 30545190}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (161)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -243,9 +243,9 @@ GameObject:
   - component: {fileID: 34558206}
   - component: {fileID: 34558205}
   - component: {fileID: 34558204}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (104)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -352,9 +352,9 @@ GameObject:
   - component: {fileID: 34932398}
   - component: {fileID: 34932397}
   - component: {fileID: 34932396}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (140)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -461,9 +461,9 @@ GameObject:
   - component: {fileID: 37766290}
   - component: {fileID: 37766289}
   - component: {fileID: 37766288}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (38)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -570,9 +570,9 @@ GameObject:
   - component: {fileID: 49549082}
   - component: {fileID: 49549081}
   - component: {fileID: 49549080}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (66)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -679,9 +679,9 @@ GameObject:
   - component: {fileID: 57643603}
   - component: {fileID: 57643602}
   - component: {fileID: 57643601}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (176)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -777,6 +777,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 261
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.046}
+--- !u!114 &62992109 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4696379993001447346, guid: 57d2b226c69519b4b8f9962db98e0575, type: 3}
+  m_PrefabInstance: {fileID: 1765830009}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9a533c037d4d8498533b8594813a21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &65146581
 GameObject:
   m_ObjectHideFlags: 0
@@ -788,9 +799,9 @@ GameObject:
   - component: {fileID: 65146584}
   - component: {fileID: 65146583}
   - component: {fileID: 65146582}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (19)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -897,9 +908,9 @@ GameObject:
   - component: {fileID: 65924804}
   - component: {fileID: 65924803}
   - component: {fileID: 65924802}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (81)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1006,9 +1017,9 @@ GameObject:
   - component: {fileID: 69120747}
   - component: {fileID: 69120746}
   - component: {fileID: 69120745}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (204)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1115,9 +1126,9 @@ GameObject:
   - component: {fileID: 74723183}
   - component: {fileID: 74723182}
   - component: {fileID: 74723181}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (136)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1223,9 +1234,9 @@ GameObject:
   m_Component:
   - component: {fileID: 84870851}
   - component: {fileID: 84870850}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (33)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1306,9 +1317,9 @@ GameObject:
   - component: {fileID: 87229099}
   - component: {fileID: 87229098}
   - component: {fileID: 87229097}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (179)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1415,9 +1426,9 @@ GameObject:
   - component: {fileID: 89757250}
   - component: {fileID: 89757249}
   - component: {fileID: 89757248}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (64)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1524,9 +1535,9 @@ GameObject:
   - component: {fileID: 100881892}
   - component: {fileID: 100881891}
   - component: {fileID: 100881890}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1690,9 +1701,9 @@ GameObject:
   - component: {fileID: 104357252}
   - component: {fileID: 104357251}
   - component: {fileID: 104357250}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1867,7 +1878,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 104357482}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.101, y: -3.223, z: -10}
+  m_LocalPosition: {x: -17.99969, y: -1.764375, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1885,7 +1896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b62289378c751b409b4da58f13084ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 616362078}
+  target: {fileID: 1788315050}
   offset: {x: 0, y: 0, z: 0}
   smoothFactor: 0
 --- !u!114 &104357487
@@ -1933,9 +1944,9 @@ GameObject:
   - component: {fileID: 105000650}
   - component: {fileID: 105000649}
   - component: {fileID: 105000648}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (167)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2042,9 +2053,9 @@ GameObject:
   - component: {fileID: 112013620}
   - component: {fileID: 112013619}
   - component: {fileID: 112013618}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (152)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2151,9 +2162,9 @@ GameObject:
   - component: {fileID: 121210370}
   - component: {fileID: 121210369}
   - component: {fileID: 121210368}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2259,9 +2270,9 @@ GameObject:
   m_Component:
   - component: {fileID: 131924749}
   - component: {fileID: 131924748}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (39)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2342,9 +2353,9 @@ GameObject:
   - component: {fileID: 135719378}
   - component: {fileID: 135719377}
   - component: {fileID: 135719376}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2451,9 +2462,9 @@ GameObject:
   - component: {fileID: 157098897}
   - component: {fileID: 157098896}
   - component: {fileID: 157098895}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (202)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2559,9 +2570,9 @@ GameObject:
   m_Component:
   - component: {fileID: 163446801}
   - component: {fileID: 163446800}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2642,9 +2653,9 @@ GameObject:
   - component: {fileID: 163988997}
   - component: {fileID: 163988996}
   - component: {fileID: 163988995}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2751,9 +2762,9 @@ GameObject:
   - component: {fileID: 164727743}
   - component: {fileID: 164727742}
   - component: {fileID: 164727741}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (205)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2860,9 +2871,9 @@ GameObject:
   - component: {fileID: 168997038}
   - component: {fileID: 168997037}
   - component: {fileID: 168997036}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (71)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2975,7 +2986,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1061866381199390535, guid: 4bc3d2dcfdbc13e4698558b76d3db103, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1061866381199390535, guid: 4bc3d2dcfdbc13e4698558b76d3db103, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3029,9 +3040,9 @@ GameObject:
   m_Component:
   - component: {fileID: 186684334}
   - component: {fileID: 186684333}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3111,9 +3122,9 @@ GameObject:
   m_Component:
   - component: {fileID: 199059039}
   - component: {fileID: 199059038}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (35)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3194,9 +3205,9 @@ GameObject:
   - component: {fileID: 204127530}
   - component: {fileID: 204127529}
   - component: {fileID: 204127528}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (67)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3303,9 +3314,9 @@ GameObject:
   - component: {fileID: 215374299}
   - component: {fileID: 215374298}
   - component: {fileID: 215374297}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_106
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3412,9 +3423,9 @@ GameObject:
   - component: {fileID: 225787056}
   - component: {fileID: 225787055}
   - component: {fileID: 225787054}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (97)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3521,9 +3532,9 @@ GameObject:
   - component: {fileID: 236798853}
   - component: {fileID: 236798852}
   - component: {fileID: 236798851}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (26)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3630,9 +3641,9 @@ GameObject:
   - component: {fileID: 237132618}
   - component: {fileID: 237132617}
   - component: {fileID: 237132616}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3739,9 +3750,9 @@ GameObject:
   - component: {fileID: 244960690}
   - component: {fileID: 244960689}
   - component: {fileID: 244960688}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (63)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3848,9 +3859,9 @@ GameObject:
   - component: {fileID: 262757261}
   - component: {fileID: 262757260}
   - component: {fileID: 262757259}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (101)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3957,9 +3968,9 @@ GameObject:
   - component: {fileID: 272152604}
   - component: {fileID: 272152603}
   - component: {fileID: 272152602}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_146
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4065,9 +4076,9 @@ GameObject:
   m_Component:
   - component: {fileID: 273095845}
   - component: {fileID: 273095844}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4148,9 +4159,9 @@ GameObject:
   - component: {fileID: 280330977}
   - component: {fileID: 280330976}
   - component: {fileID: 280330975}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (59)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4257,9 +4268,9 @@ GameObject:
   - component: {fileID: 283765982}
   - component: {fileID: 283765981}
   - component: {fileID: 283765980}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (126)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4366,9 +4377,9 @@ GameObject:
   - component: {fileID: 287969116}
   - component: {fileID: 287969115}
   - component: {fileID: 287969114}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (220)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4475,9 +4486,9 @@ GameObject:
   - component: {fileID: 304017539}
   - component: {fileID: 304017538}
   - component: {fileID: 304017537}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (196)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4584,9 +4595,9 @@ GameObject:
   - component: {fileID: 310589018}
   - component: {fileID: 310589017}
   - component: {fileID: 310589016}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (48)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4693,9 +4704,9 @@ GameObject:
   - component: {fileID: 311769217}
   - component: {fileID: 311769216}
   - component: {fileID: 311769215}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (117)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4802,9 +4813,9 @@ GameObject:
   - component: {fileID: 312357973}
   - component: {fileID: 312357972}
   - component: {fileID: 312357971}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4911,9 +4922,9 @@ GameObject:
   - component: {fileID: 315856482}
   - component: {fileID: 315856481}
   - component: {fileID: 315856480}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_146 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5020,9 +5031,9 @@ GameObject:
   - component: {fileID: 316148419}
   - component: {fileID: 316148418}
   - component: {fileID: 316148417}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_146 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5140,9 +5151,9 @@ GameObject:
   - component: {fileID: 321470327}
   - component: {fileID: 321470326}
   - component: {fileID: 321470325}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (143)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5248,9 +5259,9 @@ GameObject:
   m_Component:
   - component: {fileID: 337318595}
   - component: {fileID: 337318594}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (41)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5331,9 +5342,9 @@ GameObject:
   - component: {fileID: 339964466}
   - component: {fileID: 339964465}
   - component: {fileID: 339964464}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5439,9 +5450,9 @@ GameObject:
   m_Component:
   - component: {fileID: 348443603}
   - component: {fileID: 348443602}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (31)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5522,9 +5533,9 @@ GameObject:
   - component: {fileID: 349312556}
   - component: {fileID: 349312555}
   - component: {fileID: 349312554}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (146)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5631,9 +5642,9 @@ GameObject:
   - component: {fileID: 356263732}
   - component: {fileID: 356263731}
   - component: {fileID: 356263730}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (127)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5740,9 +5751,9 @@ GameObject:
   - component: {fileID: 361604827}
   - component: {fileID: 361604826}
   - component: {fileID: 361604825}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (116)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5849,9 +5860,9 @@ GameObject:
   - component: {fileID: 368847771}
   - component: {fileID: 368847770}
   - component: {fileID: 368847769}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (47)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5958,9 +5969,9 @@ GameObject:
   - component: {fileID: 370483297}
   - component: {fileID: 370483296}
   - component: {fileID: 370483295}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (108)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6067,9 +6078,9 @@ GameObject:
   - component: {fileID: 373747108}
   - component: {fileID: 373747107}
   - component: {fileID: 373747106}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (148)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6176,9 +6187,9 @@ GameObject:
   - component: {fileID: 383328087}
   - component: {fileID: 383328086}
   - component: {fileID: 383328085}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (144)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6284,40 +6295,13 @@ GameObject:
   m_Component:
   - component: {fileID: 393058383}
   - component: {fileID: 393058382}
-  - component: {fileID: 393058381}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &393058381
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 393058380}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &393058382
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6394,9 +6378,9 @@ GameObject:
   - component: {fileID: 406133240}
   - component: {fileID: 406133239}
   - component: {fileID: 406133238}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (225)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6502,9 +6486,9 @@ GameObject:
   m_Component:
   - component: {fileID: 409592909}
   - component: {fileID: 409592908}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (27)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6666,9 +6650,9 @@ GameObject:
   m_Component:
   - component: {fileID: 425134704}
   - component: {fileID: 425134703}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6749,9 +6733,9 @@ GameObject:
   - component: {fileID: 430391267}
   - component: {fileID: 430391266}
   - component: {fileID: 430391265}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (131)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6858,9 +6842,9 @@ GameObject:
   - component: {fileID: 432129157}
   - component: {fileID: 432129156}
   - component: {fileID: 432129155}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6967,9 +6951,9 @@ GameObject:
   - component: {fileID: 434182955}
   - component: {fileID: 434182954}
   - component: {fileID: 434182953}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (188)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7076,9 +7060,9 @@ GameObject:
   - component: {fileID: 435416829}
   - component: {fileID: 435416828}
   - component: {fileID: 435416827}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (100)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7184,40 +7168,13 @@ GameObject:
   m_Component:
   - component: {fileID: 435491967}
   - component: {fileID: 435491966}
-  - component: {fileID: 435491965}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &435491965
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 435491964}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &435491966
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7294,9 +7251,9 @@ GameObject:
   - component: {fileID: 436263826}
   - component: {fileID: 436263825}
   - component: {fileID: 436263824}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (139)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7403,9 +7360,9 @@ GameObject:
   - component: {fileID: 444803235}
   - component: {fileID: 444803234}
   - component: {fileID: 444803233}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (187)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7511,9 +7468,9 @@ GameObject:
   m_Component:
   - component: {fileID: 452961011}
   - component: {fileID: 452961010}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (44)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7594,9 +7551,9 @@ GameObject:
   - component: {fileID: 458695576}
   - component: {fileID: 458695575}
   - component: {fileID: 458695574}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7703,9 +7660,9 @@ GameObject:
   - component: {fileID: 464726679}
   - component: {fileID: 464726678}
   - component: {fileID: 464726677}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (135)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7812,9 +7769,9 @@ GameObject:
   - component: {fileID: 479820537}
   - component: {fileID: 479820536}
   - component: {fileID: 479820535}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (125)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7920,9 +7877,9 @@ GameObject:
   m_Component:
   - component: {fileID: 481996309}
   - component: {fileID: 481996308}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (30)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8003,9 +7960,9 @@ GameObject:
   - component: {fileID: 495955494}
   - component: {fileID: 495955493}
   - component: {fileID: 495955492}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_146 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8112,9 +8069,9 @@ GameObject:
   - component: {fileID: 496948808}
   - component: {fileID: 496948807}
   - component: {fileID: 496948806}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (222)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8220,40 +8177,13 @@ GameObject:
   m_Component:
   - component: {fileID: 503738204}
   - component: {fileID: 503738203}
-  - component: {fileID: 503738202}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &503738202
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 503738201}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &503738203
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8354,8 +8284,8 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 616362078}
+  m_LookAt: {fileID: 1788315050}
+  m_Follow: {fileID: 1788315050}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 5
@@ -8379,12 +8309,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505627438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.101, y: -3.223, z: -10}
+  m_LocalPosition: {x: -17.99969, y: -1.764375, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 728414341}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &513984543
 GameObject:
@@ -8396,9 +8326,9 @@ GameObject:
   m_Component:
   - component: {fileID: 513984545}
   - component: {fileID: 513984544}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (32)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8479,9 +8409,9 @@ GameObject:
   - component: {fileID: 515949502}
   - component: {fileID: 515949501}
   - component: {fileID: 515949500}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (77)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8587,40 +8517,13 @@ GameObject:
   m_Component:
   - component: {fileID: 517677243}
   - component: {fileID: 517677242}
-  - component: {fileID: 517677241}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &517677241
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 517677240}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &517677242
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8697,9 +8600,9 @@ GameObject:
   - component: {fileID: 520051976}
   - component: {fileID: 520051975}
   - component: {fileID: 520051974}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (96)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8806,9 +8709,9 @@ GameObject:
   - component: {fileID: 529744100}
   - component: {fileID: 529744099}
   - component: {fileID: 529744098}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (158)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8914,9 +8817,9 @@ GameObject:
   m_Component:
   - component: {fileID: 545403685}
   - component: {fileID: 545403684}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8996,9 +8899,9 @@ GameObject:
   m_Component:
   - component: {fileID: 549083481}
   - component: {fileID: 549083480}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (42)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9079,9 +8982,9 @@ GameObject:
   - component: {fileID: 554901389}
   - component: {fileID: 554901388}
   - component: {fileID: 554901387}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (129)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9188,9 +9091,9 @@ GameObject:
   - component: {fileID: 554953202}
   - component: {fileID: 554953201}
   - component: {fileID: 554953200}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (156)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9296,9 +9199,9 @@ GameObject:
   m_Component:
   - component: {fileID: 556154394}
   - component: {fileID: 556154393}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (46)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9379,9 +9282,9 @@ GameObject:
   - component: {fileID: 556937833}
   - component: {fileID: 556937832}
   - component: {fileID: 556937831}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (200)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9488,9 +9391,9 @@ GameObject:
   - component: {fileID: 562095450}
   - component: {fileID: 562095449}
   - component: {fileID: 562095448}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (150)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9597,9 +9500,9 @@ GameObject:
   - component: {fileID: 571681716}
   - component: {fileID: 571681715}
   - component: {fileID: 571681714}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9737,9 +9640,9 @@ GameObject:
   - component: {fileID: 583746223}
   - component: {fileID: 583746222}
   - component: {fileID: 583746221}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (24)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9845,9 +9748,9 @@ GameObject:
   m_Component:
   - component: {fileID: 584973988}
   - component: {fileID: 584973987}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (23)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9928,9 +9831,9 @@ GameObject:
   - component: {fileID: 588715400}
   - component: {fileID: 588715399}
   - component: {fileID: 588715398}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (39)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10037,9 +9940,9 @@ GameObject:
   - component: {fileID: 595621294}
   - component: {fileID: 595621293}
   - component: {fileID: 595621292}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10135,11 +10038,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &616362078 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
-  m_PrefabInstance: {fileID: 6386434518601771585}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &620159170
 GameObject:
   m_ObjectHideFlags: 0
@@ -10151,9 +10049,9 @@ GameObject:
   - component: {fileID: 620159173}
   - component: {fileID: 620159172}
   - component: {fileID: 620159171}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (168)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10260,9 +10158,9 @@ GameObject:
   - component: {fileID: 630138218}
   - component: {fileID: 630138217}
   - component: {fileID: 630138216}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10369,9 +10267,9 @@ GameObject:
   - component: {fileID: 635278366}
   - component: {fileID: 635278365}
   - component: {fileID: 635278364}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (20)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10478,9 +10376,9 @@ GameObject:
   - component: {fileID: 636659165}
   - component: {fileID: 636659164}
   - component: {fileID: 636659163}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10587,9 +10485,9 @@ GameObject:
   - component: {fileID: 646509194}
   - component: {fileID: 646509193}
   - component: {fileID: 646509192}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (30)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10695,9 +10593,9 @@ GameObject:
   m_Component:
   - component: {fileID: 656804305}
   - component: {fileID: 656804304}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (19)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10778,9 +10676,9 @@ GameObject:
   - component: {fileID: 659708730}
   - component: {fileID: 659708729}
   - component: {fileID: 659708728}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (28)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10887,9 +10785,9 @@ GameObject:
   - component: {fileID: 659723322}
   - component: {fileID: 659723321}
   - component: {fileID: 659723320}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (169)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10995,9 +10893,9 @@ GameObject:
   m_Component:
   - component: {fileID: 661119575}
   - component: {fileID: 661119574}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11077,9 +10975,9 @@ GameObject:
   m_Component:
   - component: {fileID: 663146676}
   - component: {fileID: 663146675}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (38)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11160,9 +11058,9 @@ GameObject:
   - component: {fileID: 664167403}
   - component: {fileID: 664167402}
   - component: {fileID: 664167401}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (229)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11269,9 +11167,9 @@ GameObject:
   - component: {fileID: 665018375}
   - component: {fileID: 665018374}
   - component: {fileID: 665018373}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (103)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11378,9 +11276,9 @@ GameObject:
   - component: {fileID: 676702934}
   - component: {fileID: 676702933}
   - component: {fileID: 676702932}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (189)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11486,9 +11384,9 @@ GameObject:
   m_Component:
   - component: {fileID: 681314611}
   - component: {fileID: 681314610}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11569,9 +11467,9 @@ GameObject:
   - component: {fileID: 684250489}
   - component: {fileID: 684250488}
   - component: {fileID: 684250487}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11678,9 +11576,9 @@ GameObject:
   - component: {fileID: 687313373}
   - component: {fileID: 687313372}
   - component: {fileID: 687313371}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (203)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11787,9 +11685,9 @@ GameObject:
   - component: {fileID: 706125619}
   - component: {fileID: 706125618}
   - component: {fileID: 706125617}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (174)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11896,9 +11794,9 @@ GameObject:
   - component: {fileID: 711208442}
   - component: {fileID: 711208441}
   - component: {fileID: 711208440}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_106 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12004,9 +11902,9 @@ GameObject:
   m_Component:
   - component: {fileID: 715746721}
   - component: {fileID: 715746720}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (36)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12087,9 +11985,9 @@ GameObject:
   - component: {fileID: 726481130}
   - component: {fileID: 726481129}
   - component: {fileID: 726481128}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (54)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12296,9 +12194,9 @@ GameObject:
   m_Component:
   - component: {fileID: 740011604}
   - component: {fileID: 740011603}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (53)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12379,9 +12277,9 @@ GameObject:
   - component: {fileID: 744648194}
   - component: {fileID: 744648193}
   - component: {fileID: 744648192}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (109)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12488,9 +12386,9 @@ GameObject:
   - component: {fileID: 749140120}
   - component: {fileID: 749140119}
   - component: {fileID: 749140118}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (207)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12597,9 +12495,9 @@ GameObject:
   - component: {fileID: 759931133}
   - component: {fileID: 759931132}
   - component: {fileID: 759931131}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (22)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12705,9 +12603,9 @@ GameObject:
   m_Component:
   - component: {fileID: 768602440}
   - component: {fileID: 768602439}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (25)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12788,9 +12686,9 @@ GameObject:
   - component: {fileID: 772407827}
   - component: {fileID: 772407826}
   - component: {fileID: 772407825}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (142)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12897,9 +12795,9 @@ GameObject:
   - component: {fileID: 777811812}
   - component: {fileID: 777811811}
   - component: {fileID: 777811810}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (153)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13005,9 +12903,9 @@ GameObject:
   m_Component:
   - component: {fileID: 797285090}
   - component: {fileID: 797285089}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (22)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13088,9 +12986,9 @@ GameObject:
   - component: {fileID: 799881451}
   - component: {fileID: 799881450}
   - component: {fileID: 799881449}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (197)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13197,9 +13095,9 @@ GameObject:
   - component: {fileID: 801201886}
   - component: {fileID: 801201885}
   - component: {fileID: 801201884}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (19)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13306,9 +13204,9 @@ GameObject:
   - component: {fileID: 810372982}
   - component: {fileID: 810372981}
   - component: {fileID: 810372980}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (141)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13415,9 +13313,9 @@ GameObject:
   - component: {fileID: 828582498}
   - component: {fileID: 828582497}
   - component: {fileID: 828582496}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (106)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13524,9 +13422,9 @@ GameObject:
   - component: {fileID: 838710716}
   - component: {fileID: 838710715}
   - component: {fileID: 838710714}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (37)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13633,9 +13531,9 @@ GameObject:
   - component: {fileID: 839859513}
   - component: {fileID: 839859512}
   - component: {fileID: 839859511}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (195)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13742,9 +13640,9 @@ GameObject:
   - component: {fileID: 883573757}
   - component: {fileID: 883573756}
   - component: {fileID: 883573755}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (94)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13851,9 +13749,9 @@ GameObject:
   - component: {fileID: 886372739}
   - component: {fileID: 886372738}
   - component: {fileID: 886372737}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (198)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13960,9 +13858,9 @@ GameObject:
   - component: {fileID: 887079510}
   - component: {fileID: 887079509}
   - component: {fileID: 887079508}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (45)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14058,6 +13956,75 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.046}
+--- !u!1001 &903014500
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6386434518778362580, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.99969
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.764375
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386434518778362586, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 104357484}
+    - target: {fileID: 6386434518778362586, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
+      propertyPath: hBar
+      value: 
+      objectReference: {fileID: 62992109}
+    - target: {fileID: 6386434518778362586, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
+      propertyPath: joystickMovement
+      value: 
+      objectReference: {fileID: 319936734}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
 --- !u!1 &904594158
 GameObject:
   m_ObjectHideFlags: 0
@@ -14069,9 +14036,9 @@ GameObject:
   - component: {fileID: 904594161}
   - component: {fileID: 904594160}
   - component: {fileID: 904594159}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (76)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14178,9 +14145,9 @@ GameObject:
   - component: {fileID: 905483356}
   - component: {fileID: 905483355}
   - component: {fileID: 905483354}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (111)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14287,9 +14254,9 @@ GameObject:
   - component: {fileID: 908212602}
   - component: {fileID: 908212601}
   - component: {fileID: 908212600}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (53)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14396,9 +14363,9 @@ GameObject:
   - component: {fileID: 911850137}
   - component: {fileID: 911850136}
   - component: {fileID: 911850135}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (93)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14505,9 +14472,9 @@ GameObject:
   - component: {fileID: 924369830}
   - component: {fileID: 924369829}
   - component: {fileID: 924369828}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (49)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14614,9 +14581,9 @@ GameObject:
   - component: {fileID: 937333832}
   - component: {fileID: 937333831}
   - component: {fileID: 937333830}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (61)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14723,9 +14690,9 @@ GameObject:
   - component: {fileID: 941232511}
   - component: {fileID: 941232510}
   - component: {fileID: 941232509}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (216)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14831,9 +14798,9 @@ GameObject:
   m_Component:
   - component: {fileID: 944173881}
   - component: {fileID: 944173880}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14914,9 +14881,9 @@ GameObject:
   - component: {fileID: 945593628}
   - component: {fileID: 945593627}
   - component: {fileID: 945593626}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (201)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15023,9 +14990,9 @@ GameObject:
   - component: {fileID: 948375981}
   - component: {fileID: 948375980}
   - component: {fileID: 948375979}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (149)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15132,9 +15099,9 @@ GameObject:
   - component: {fileID: 959487788}
   - component: {fileID: 959487787}
   - component: {fileID: 959487786}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (151)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15241,9 +15208,9 @@ GameObject:
   - component: {fileID: 961675663}
   - component: {fileID: 961675662}
   - component: {fileID: 961675661}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_146 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15350,9 +15317,9 @@ GameObject:
   - component: {fileID: 961736645}
   - component: {fileID: 961736644}
   - component: {fileID: 961736643}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15459,9 +15426,9 @@ GameObject:
   - component: {fileID: 963670236}
   - component: {fileID: 963670235}
   - component: {fileID: 963670234}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (90)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15568,9 +15535,9 @@ GameObject:
   - component: {fileID: 967521111}
   - component: {fileID: 967521110}
   - component: {fileID: 967521109}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (31)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15677,9 +15644,9 @@ GameObject:
   - component: {fileID: 975468616}
   - component: {fileID: 975468615}
   - component: {fileID: 975468614}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (123)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15786,9 +15753,9 @@ GameObject:
   - component: {fileID: 977708788}
   - component: {fileID: 977708787}
   - component: {fileID: 977708786}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (27)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15894,40 +15861,13 @@ GameObject:
   m_Component:
   - component: {fileID: 984060752}
   - component: {fileID: 984060751}
-  - component: {fileID: 984060750}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &984060750
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 984060749}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &984060751
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16003,40 +15943,13 @@ GameObject:
   m_Component:
   - component: {fileID: 988627881}
   - component: {fileID: 988627880}
-  - component: {fileID: 988627879}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &988627879
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 988627878}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &988627880
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16113,9 +16026,9 @@ GameObject:
   - component: {fileID: 991038142}
   - component: {fileID: 991038141}
   - component: {fileID: 991038140}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (219)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16222,9 +16135,9 @@ GameObject:
   - component: {fileID: 998412824}
   - component: {fileID: 998412823}
   - component: {fileID: 998412822}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (170)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16330,40 +16243,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1004245934}
   - component: {fileID: 1004245933}
-  - component: {fileID: 1004245932}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1004245932
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004245931}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &1004245933
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16439,9 +16325,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1008659531}
   - component: {fileID: 1008659530}
-  m_Layer: 0
+  - component: {fileID: 1008659532}
+  m_Layer: 3
   m_Name: TX Tileset Ground_151
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16511,6 +16398,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1008659532
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008659529}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 3.9718037, y: 0.47283387}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.943607, y: 1.9456677}
+  m_EdgeRadius: 0
 --- !u!1 &1009874017
 GameObject:
   m_ObjectHideFlags: 0
@@ -16522,9 +16435,9 @@ GameObject:
   - component: {fileID: 1009874020}
   - component: {fileID: 1009874019}
   - component: {fileID: 1009874018}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (185)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16631,9 +16544,9 @@ GameObject:
   - component: {fileID: 1010091782}
   - component: {fileID: 1010091781}
   - component: {fileID: 1010091780}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (43)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16740,9 +16653,9 @@ GameObject:
   - component: {fileID: 1024197450}
   - component: {fileID: 1024197449}
   - component: {fileID: 1024197448}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (227)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16849,9 +16762,9 @@ GameObject:
   - component: {fileID: 1031899100}
   - component: {fileID: 1031899099}
   - component: {fileID: 1031899098}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (132)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16958,9 +16871,9 @@ GameObject:
   - component: {fileID: 1036318754}
   - component: {fileID: 1036318753}
   - component: {fileID: 1036318752}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (65)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17066,9 +16979,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1038039198}
   - component: {fileID: 1038039197}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (20)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17149,9 +17062,9 @@ GameObject:
   - component: {fileID: 1039889040}
   - component: {fileID: 1039889039}
   - component: {fileID: 1039889038}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_146 (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17258,9 +17171,9 @@ GameObject:
   - component: {fileID: 1054695041}
   - component: {fileID: 1054695040}
   - component: {fileID: 1054695039}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17366,40 +17279,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1073988174}
   - component: {fileID: 1073988173}
-  - component: {fileID: 1073988172}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1073988172
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1073988171}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &1073988173
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17476,9 +17362,9 @@ GameObject:
   - component: {fileID: 1082552040}
   - component: {fileID: 1082552039}
   - component: {fileID: 1082552038}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (138)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17584,9 +17470,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1089390333}
   - component: {fileID: 1089390332}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (40)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17667,9 +17553,9 @@ GameObject:
   - component: {fileID: 1089718837}
   - component: {fileID: 1089718836}
   - component: {fileID: 1089718835}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (166)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17776,9 +17662,9 @@ GameObject:
   - component: {fileID: 1112223150}
   - component: {fileID: 1112223149}
   - component: {fileID: 1112223148}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (119)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17885,9 +17771,9 @@ GameObject:
   - component: {fileID: 1132509115}
   - component: {fileID: 1132509114}
   - component: {fileID: 1132509113}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17994,9 +17880,9 @@ GameObject:
   - component: {fileID: 1133547327}
   - component: {fileID: 1133547326}
   - component: {fileID: 1133547325}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (124)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18103,9 +17989,9 @@ GameObject:
   - component: {fileID: 1138918494}
   - component: {fileID: 1138918493}
   - component: {fileID: 1138918492}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_68
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18212,9 +18098,9 @@ GameObject:
   - component: {fileID: 1141998555}
   - component: {fileID: 1141998554}
   - component: {fileID: 1141998553}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (180)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18320,9 +18206,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1152576693}
   - component: {fileID: 1152576692}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (50)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18403,9 +18289,9 @@ GameObject:
   - component: {fileID: 1163481128}
   - component: {fileID: 1163481127}
   - component: {fileID: 1163481126}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (175)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18512,9 +18398,9 @@ GameObject:
   - component: {fileID: 1168217078}
   - component: {fileID: 1168217077}
   - component: {fileID: 1168217076}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (231)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18621,9 +18507,9 @@ GameObject:
   - component: {fileID: 1169642912}
   - component: {fileID: 1169642911}
   - component: {fileID: 1169642910}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_107
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18730,9 +18616,9 @@ GameObject:
   - component: {fileID: 1170436529}
   - component: {fileID: 1170436528}
   - component: {fileID: 1170436527}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (230)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18839,9 +18725,9 @@ GameObject:
   - component: {fileID: 1174508839}
   - component: {fileID: 1174508838}
   - component: {fileID: 1174508837}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (192)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18948,9 +18834,9 @@ GameObject:
   - component: {fileID: 1176552745}
   - component: {fileID: 1176552744}
   - component: {fileID: 1176552743}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (95)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19057,9 +18943,9 @@ GameObject:
   - component: {fileID: 1180740332}
   - component: {fileID: 1180740331}
   - component: {fileID: 1180740330}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (29)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19166,9 +19052,9 @@ GameObject:
   - component: {fileID: 1186928719}
   - component: {fileID: 1186928718}
   - component: {fileID: 1186928717}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (73)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19275,9 +19161,9 @@ GameObject:
   - component: {fileID: 1187025924}
   - component: {fileID: 1187025923}
   - component: {fileID: 1187025922}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (91)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19383,9 +19269,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1192559760}
   - component: {fileID: 1192559759}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19465,9 +19351,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1194804744}
   - component: {fileID: 1194804743}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19548,9 +19434,9 @@ GameObject:
   - component: {fileID: 1199715123}
   - component: {fileID: 1199715122}
   - component: {fileID: 1199715121}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_146 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19657,9 +19543,9 @@ GameObject:
   - component: {fileID: 1200310391}
   - component: {fileID: 1200310390}
   - component: {fileID: 1200310389}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (25)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19766,9 +19652,9 @@ GameObject:
   - component: {fileID: 1205949725}
   - component: {fileID: 1205949724}
   - component: {fileID: 1205949723}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_107 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19875,9 +19761,9 @@ GameObject:
   - component: {fileID: 1207269393}
   - component: {fileID: 1207269392}
   - component: {fileID: 1207269391}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (52)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19984,9 +19870,9 @@ GameObject:
   - component: {fileID: 1219205881}
   - component: {fileID: 1219205880}
   - component: {fileID: 1219205879}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (112)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20092,9 +19978,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1221833426}
   - component: {fileID: 1221833425}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20175,9 +20061,9 @@ GameObject:
   - component: {fileID: 1222701753}
   - component: {fileID: 1222701752}
   - component: {fileID: 1222701751}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (145)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20284,9 +20170,9 @@ GameObject:
   - component: {fileID: 1224806701}
   - component: {fileID: 1224806700}
   - component: {fileID: 1224806699}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (78)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20393,9 +20279,9 @@ GameObject:
   - component: {fileID: 1225264142}
   - component: {fileID: 1225264141}
   - component: {fileID: 1225264140}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (233)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20502,9 +20388,9 @@ GameObject:
   - component: {fileID: 1225710743}
   - component: {fileID: 1225710742}
   - component: {fileID: 1225710741}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (162)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20611,9 +20497,9 @@ GameObject:
   - component: {fileID: 1226189185}
   - component: {fileID: 1226189184}
   - component: {fileID: 1226189183}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (92)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20720,9 +20606,9 @@ GameObject:
   - component: {fileID: 1234041010}
   - component: {fileID: 1234041009}
   - component: {fileID: 1234041008}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20829,9 +20715,9 @@ GameObject:
   - component: {fileID: 1241021755}
   - component: {fileID: 1241021754}
   - component: {fileID: 1241021753}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (107)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20938,9 +20824,9 @@ GameObject:
   - component: {fileID: 1242028318}
   - component: {fileID: 1242028317}
   - component: {fileID: 1242028316}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (181)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21047,9 +20933,9 @@ GameObject:
   - component: {fileID: 1257631720}
   - component: {fileID: 1257631719}
   - component: {fileID: 1257631718}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (34)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21156,9 +21042,9 @@ GameObject:
   - component: {fileID: 1271149647}
   - component: {fileID: 1271149646}
   - component: {fileID: 1271149645}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (224)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21265,9 +21151,9 @@ GameObject:
   - component: {fileID: 1273542447}
   - component: {fileID: 1273542446}
   - component: {fileID: 1273542445}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (98)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21374,9 +21260,9 @@ GameObject:
   - component: {fileID: 1278640128}
   - component: {fileID: 1278640127}
   - component: {fileID: 1278640126}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (84)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21483,9 +21369,9 @@ GameObject:
   - component: {fileID: 1290218131}
   - component: {fileID: 1290218130}
   - component: {fileID: 1290218129}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (173)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21592,9 +21478,9 @@ GameObject:
   - component: {fileID: 1296736627}
   - component: {fileID: 1296736626}
   - component: {fileID: 1296736625}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (228)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21754,7 +21640,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1306258272
 GameObject:
@@ -21767,9 +21653,9 @@ GameObject:
   - component: {fileID: 1306258275}
   - component: {fileID: 1306258274}
   - component: {fileID: 1306258273}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (218)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21876,9 +21762,9 @@ GameObject:
   - component: {fileID: 1313906406}
   - component: {fileID: 1313906405}
   - component: {fileID: 1313906404}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (217)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21985,9 +21871,9 @@ GameObject:
   - component: {fileID: 1317780733}
   - component: {fileID: 1317780732}
   - component: {fileID: 1317780731}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (58)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22094,9 +21980,9 @@ GameObject:
   - component: {fileID: 1318992508}
   - component: {fileID: 1318992507}
   - component: {fileID: 1318992506}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (83)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22203,9 +22089,9 @@ GameObject:
   - component: {fileID: 1325292568}
   - component: {fileID: 1325292567}
   - component: {fileID: 1325292566}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (80)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22312,9 +22198,9 @@ GameObject:
   - component: {fileID: 1325534119}
   - component: {fileID: 1325534118}
   - component: {fileID: 1325534117}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_146 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22421,9 +22307,9 @@ GameObject:
   - component: {fileID: 1325792054}
   - component: {fileID: 1325792053}
   - component: {fileID: 1325792052}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (130)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22530,9 +22416,9 @@ GameObject:
   - component: {fileID: 1327856186}
   - component: {fileID: 1327856185}
   - component: {fileID: 1327856184}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (223)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22639,9 +22525,9 @@ GameObject:
   - component: {fileID: 1349100049}
   - component: {fileID: 1349100048}
   - component: {fileID: 1349100047}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (68)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22748,9 +22634,9 @@ GameObject:
   - component: {fileID: 1353811548}
   - component: {fileID: 1353811547}
   - component: {fileID: 1353811546}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (72)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22857,9 +22743,9 @@ GameObject:
   - component: {fileID: 1386545512}
   - component: {fileID: 1386545511}
   - component: {fileID: 1386545510}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (182)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22966,9 +22852,9 @@ GameObject:
   - component: {fileID: 1403694828}
   - component: {fileID: 1403694827}
   - component: {fileID: 1403694826}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (110)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23074,9 +22960,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1411704560}
   - component: {fileID: 1411704559}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (37)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23157,9 +23043,9 @@ GameObject:
   - component: {fileID: 1425056254}
   - component: {fileID: 1425056253}
   - component: {fileID: 1425056252}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (206)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23266,9 +23152,9 @@ GameObject:
   - component: {fileID: 1441418561}
   - component: {fileID: 1441418560}
   - component: {fileID: 1441418559}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (213)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23374,40 +23260,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1442853077}
   - component: {fileID: 1442853076}
-  - component: {fileID: 1442853075}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1442853075
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1442853074}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &1442853076
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23483,40 +23342,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1447960466}
   - component: {fileID: 1447960465}
-  - component: {fileID: 1447960464}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1447960464
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1447960463}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &1447960465
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23592,9 +23424,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1454470462}
   - component: {fileID: 1454470461}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (47)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23674,9 +23506,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1461588571}
   - component: {fileID: 1461588570}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (34)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23757,9 +23589,9 @@ GameObject:
   - component: {fileID: 1479077349}
   - component: {fileID: 1479077348}
   - component: {fileID: 1479077347}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (193)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23866,9 +23698,9 @@ GameObject:
   - component: {fileID: 1484351722}
   - component: {fileID: 1484351721}
   - component: {fileID: 1484351720}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (210)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23975,9 +23807,9 @@ GameObject:
   - component: {fileID: 1489101472}
   - component: {fileID: 1489101471}
   - component: {fileID: 1489101470}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (183)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24084,9 +23916,9 @@ GameObject:
   - component: {fileID: 1518779880}
   - component: {fileID: 1518779879}
   - component: {fileID: 1518779878}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (99)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24193,9 +24025,9 @@ GameObject:
   - component: {fileID: 1518888945}
   - component: {fileID: 1518888944}
   - component: {fileID: 1518888943}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24302,9 +24134,9 @@ GameObject:
   - component: {fileID: 1539141848}
   - component: {fileID: 1539141847}
   - component: {fileID: 1539141846}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (178)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24411,9 +24243,9 @@ GameObject:
   - component: {fileID: 1546773507}
   - component: {fileID: 1546773506}
   - component: {fileID: 1546773505}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (159)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24520,9 +24352,9 @@ GameObject:
   - component: {fileID: 1556772383}
   - component: {fileID: 1556772382}
   - component: {fileID: 1556772381}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (199)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24629,9 +24461,9 @@ GameObject:
   - component: {fileID: 1557073890}
   - component: {fileID: 1557073889}
   - component: {fileID: 1557073888}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (70)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24738,9 +24570,9 @@ GameObject:
   - component: {fileID: 1557895247}
   - component: {fileID: 1557895246}
   - component: {fileID: 1557895245}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (42)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24847,9 +24679,9 @@ GameObject:
   - component: {fileID: 1568097024}
   - component: {fileID: 1568097023}
   - component: {fileID: 1568097022}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_146 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24956,9 +24788,9 @@ GameObject:
   - component: {fileID: 1570653693}
   - component: {fileID: 1570653692}
   - component: {fileID: 1570653691}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (62)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25064,9 +24896,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1573529956}
   - component: {fileID: 1573529955}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25146,9 +24978,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1577700184}
   - component: {fileID: 1577700183}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (21)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25229,9 +25061,9 @@ GameObject:
   - component: {fileID: 1599592171}
   - component: {fileID: 1599592170}
   - component: {fileID: 1599592169}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (32)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25337,9 +25169,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1601677415}
   - component: {fileID: 1601677414}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (24)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25420,9 +25252,9 @@ GameObject:
   - component: {fileID: 1617782801}
   - component: {fileID: 1617782800}
   - component: {fileID: 1617782799}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (122)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25528,9 +25360,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1637188973}
   - component: {fileID: 1637188972}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25611,9 +25443,9 @@ GameObject:
   - component: {fileID: 1638795508}
   - component: {fileID: 1638795507}
   - component: {fileID: 1638795506}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (226)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25720,9 +25552,9 @@ GameObject:
   - component: {fileID: 1646075388}
   - component: {fileID: 1646075387}
   - component: {fileID: 1646075386}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (56)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25829,9 +25661,9 @@ GameObject:
   - component: {fileID: 1646784230}
   - component: {fileID: 1646784229}
   - component: {fileID: 1646784228}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (21)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25937,40 +25769,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1652481666}
   - component: {fileID: 1652481665}
-  - component: {fileID: 1652481664}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1652481664
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1652481663}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &1652481665
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26046,9 +25851,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1653078576}
   - component: {fileID: 1653078575}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (49)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26129,9 +25934,9 @@ GameObject:
   - component: {fileID: 1653216464}
   - component: {fileID: 1653216463}
   - component: {fileID: 1653216462}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (157)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26238,9 +26043,9 @@ GameObject:
   - component: {fileID: 1659395691}
   - component: {fileID: 1659395690}
   - component: {fileID: 1659395689}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (114)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26347,9 +26152,9 @@ GameObject:
   - component: {fileID: 1665196032}
   - component: {fileID: 1665196031}
   - component: {fileID: 1665196030}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (133)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26456,9 +26261,9 @@ GameObject:
   - component: {fileID: 1667972959}
   - component: {fileID: 1667972958}
   - component: {fileID: 1667972957}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (46)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26565,9 +26370,9 @@ GameObject:
   - component: {fileID: 1669797171}
   - component: {fileID: 1669797170}
   - component: {fileID: 1669797169}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (50)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26673,40 +26478,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1676233261}
   - component: {fileID: 1676233260}
-  - component: {fileID: 1676233259}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1676233259
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1676233258}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &1676233260
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26782,9 +26560,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1678222765}
   - component: {fileID: 1678222764}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26865,9 +26643,9 @@ GameObject:
   - component: {fileID: 1684409915}
   - component: {fileID: 1684409914}
   - component: {fileID: 1684409913}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (79)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26974,9 +26752,9 @@ GameObject:
   - component: {fileID: 1686253930}
   - component: {fileID: 1686253929}
   - component: {fileID: 1686253928}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (23)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27083,9 +26861,9 @@ GameObject:
   - component: {fileID: 1691099046}
   - component: {fileID: 1691099045}
   - component: {fileID: 1691099044}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (82)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27192,9 +26970,9 @@ GameObject:
   - component: {fileID: 1691750258}
   - component: {fileID: 1691750257}
   - component: {fileID: 1691750256}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (115)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27301,9 +27079,9 @@ GameObject:
   - component: {fileID: 1693141970}
   - component: {fileID: 1693141969}
   - component: {fileID: 1693141968}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (120)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27410,9 +27188,9 @@ GameObject:
   - component: {fileID: 1695260780}
   - component: {fileID: 1695260779}
   - component: {fileID: 1695260778}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (155)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27518,9 +27296,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1695659526}
   - component: {fileID: 1695659525}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27601,9 +27379,9 @@ GameObject:
   - component: {fileID: 1696274485}
   - component: {fileID: 1696274484}
   - component: {fileID: 1696274483}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (51)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27709,40 +27487,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1702059007}
   - component: {fileID: 1702059006}
-  - component: {fileID: 1702059005}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1702059005
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702059004}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &1702059006
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27819,9 +27570,9 @@ GameObject:
   - component: {fileID: 1703693849}
   - component: {fileID: 1703693848}
   - component: {fileID: 1703693847}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (208)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27928,9 +27679,9 @@ GameObject:
   - component: {fileID: 1715650624}
   - component: {fileID: 1715650623}
   - component: {fileID: 1715650622}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (191)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28037,9 +27788,9 @@ GameObject:
   - component: {fileID: 1716323678}
   - component: {fileID: 1716323677}
   - component: {fileID: 1716323676}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28145,40 +27896,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1719892620}
   - component: {fileID: 1719892619}
-  - component: {fileID: 1719892618}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1719892618
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1719892617}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &1719892619
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28255,9 +27979,9 @@ GameObject:
   - component: {fileID: 1744944264}
   - component: {fileID: 1744944263}
   - component: {fileID: 1744944262}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (35)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28363,9 +28087,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1748345519}
   - component: {fileID: 1748345518}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (52)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28446,9 +28170,9 @@ GameObject:
   - component: {fileID: 1760749136}
   - component: {fileID: 1760749135}
   - component: {fileID: 1760749134}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28555,9 +28279,9 @@ GameObject:
   - component: {fileID: 1762439022}
   - component: {fileID: 1762439021}
   - component: {fileID: 1762439020}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (105)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28674,7 +28398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1584525756185709657, guid: 57d2b226c69519b4b8f9962db98e0575, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1584525756185709657, guid: 57d2b226c69519b4b8f9962db98e0575, type: 3}
       propertyPath: m_AnchorMax.x
@@ -28765,9 +28489,9 @@ GameObject:
   - component: {fileID: 1770618879}
   - component: {fileID: 1770618878}
   - component: {fileID: 1770618877}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (147)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28874,9 +28598,9 @@ GameObject:
   - component: {fileID: 1781389348}
   - component: {fileID: 1781389347}
   - component: {fileID: 1781389346}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (44)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28972,6 +28696,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.046}
+--- !u!4 &1788315050 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
+  m_PrefabInstance: {fileID: 903014500}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1798524237
 GameObject:
   m_ObjectHideFlags: 0
@@ -28983,9 +28712,9 @@ GameObject:
   - component: {fileID: 1798524240}
   - component: {fileID: 1798524239}
   - component: {fileID: 1798524238}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (121)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29091,9 +28820,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1799456855}
   - component: {fileID: 1799456854}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29173,9 +28902,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1809469508}
   - component: {fileID: 1809469507}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (45)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29256,9 +28985,9 @@ GameObject:
   - component: {fileID: 1814088820}
   - component: {fileID: 1814088819}
   - component: {fileID: 1814088818}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (55)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29365,9 +29094,9 @@ GameObject:
   - component: {fileID: 1831302455}
   - component: {fileID: 1831302454}
   - component: {fileID: 1831302453}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (41)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29473,40 +29202,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1845573465}
   - component: {fileID: 1845573464}
-  - component: {fileID: 1845573463}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1845573463
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1845573462}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &1845573464
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29582,9 +29284,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1846183143}
   - component: {fileID: 1846183142}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29664,9 +29366,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1847044895}
   - component: {fileID: 1847044894}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29747,9 +29449,9 @@ GameObject:
   - component: {fileID: 1859184362}
   - component: {fileID: 1859184361}
   - component: {fileID: 1859184360}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (154)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29856,9 +29558,9 @@ GameObject:
   - component: {fileID: 1863898571}
   - component: {fileID: 1863898570}
   - component: {fileID: 1863898569}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_146 (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29965,9 +29667,9 @@ GameObject:
   - component: {fileID: 1870065089}
   - component: {fileID: 1870065088}
   - component: {fileID: 1870065087}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_68 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30073,9 +29775,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1876430455}
   - component: {fileID: 1876430454}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (29)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30156,9 +29858,9 @@ GameObject:
   - component: {fileID: 1881702097}
   - component: {fileID: 1881702096}
   - component: {fileID: 1881702095}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (163)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30265,9 +29967,9 @@ GameObject:
   - component: {fileID: 1882676867}
   - component: {fileID: 1882676866}
   - component: {fileID: 1882676865}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (118)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30374,9 +30076,9 @@ GameObject:
   - component: {fileID: 1889430399}
   - component: {fileID: 1889430398}
   - component: {fileID: 1889430397}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (74)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30483,9 +30185,9 @@ GameObject:
   - component: {fileID: 1898828934}
   - component: {fileID: 1898828933}
   - component: {fileID: 1898828932}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (177)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30592,9 +30294,9 @@ GameObject:
   - component: {fileID: 1899790017}
   - component: {fileID: 1899790016}
   - component: {fileID: 1899790015}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (40)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30701,9 +30403,9 @@ GameObject:
   - component: {fileID: 1914452735}
   - component: {fileID: 1914452734}
   - component: {fileID: 1914452733}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (60)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30810,9 +30512,9 @@ GameObject:
   - component: {fileID: 1916425686}
   - component: {fileID: 1916425685}
   - component: {fileID: 1916425684}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (87)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30919,9 +30621,9 @@ GameObject:
   - component: {fileID: 1920867196}
   - component: {fileID: 1920867195}
   - component: {fileID: 1920867194}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (190)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31027,9 +30729,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1924730308}
   - component: {fileID: 1924730307}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (43)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31110,9 +30812,9 @@ GameObject:
   - component: {fileID: 1927747700}
   - component: {fileID: 1927747699}
   - component: {fileID: 1927747698}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (69)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31219,9 +30921,9 @@ GameObject:
   - component: {fileID: 1935498692}
   - component: {fileID: 1935498691}
   - component: {fileID: 1935498690}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (57)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31327,9 +31029,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1949373021}
   - component: {fileID: 1949373020}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (28)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31409,9 +31111,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1953738403}
   - component: {fileID: 1953738402}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (51)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31492,9 +31194,9 @@ GameObject:
   - component: {fileID: 1961076437}
   - component: {fileID: 1961076436}
   - component: {fileID: 1961076435}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (184)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31601,9 +31303,9 @@ GameObject:
   - component: {fileID: 1976255070}
   - component: {fileID: 1976255069}
   - component: {fileID: 1976255068}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (165)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31710,9 +31412,9 @@ GameObject:
   - component: {fileID: 1980931391}
   - component: {fileID: 1980931390}
   - component: {fileID: 1980931389}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (214)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31819,9 +31521,9 @@ GameObject:
   - component: {fileID: 1981291645}
   - component: {fileID: 1981291644}
   - component: {fileID: 1981291643}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (128)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31928,9 +31630,9 @@ GameObject:
   - component: {fileID: 1982514617}
   - component: {fileID: 1982514616}
   - component: {fileID: 1982514615}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (212)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32037,9 +31739,9 @@ GameObject:
   - component: {fileID: 1984480787}
   - component: {fileID: 1984480786}
   - component: {fileID: 1984480785}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (89)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32145,9 +31847,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1985045935}
   - component: {fileID: 1985045934}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (48)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32228,9 +31930,9 @@ GameObject:
   - component: {fileID: 1986591437}
   - component: {fileID: 1986591436}
   - component: {fileID: 1986591435}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (211)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32337,9 +32039,9 @@ GameObject:
   - component: {fileID: 1987192496}
   - component: {fileID: 1987192495}
   - component: {fileID: 1987192494}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (85)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32446,9 +32148,9 @@ GameObject:
   - component: {fileID: 1989138727}
   - component: {fileID: 1989138726}
   - component: {fileID: 1989138725}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (160)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32555,9 +32257,9 @@ GameObject:
   - component: {fileID: 1998467505}
   - component: {fileID: 1998467504}
   - component: {fileID: 1998467503}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (33)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32664,9 +32366,9 @@ GameObject:
   - component: {fileID: 1998684187}
   - component: {fileID: 1998684186}
   - component: {fileID: 1998684185}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (36)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32773,9 +32475,9 @@ GameObject:
   - component: {fileID: 1999985364}
   - component: {fileID: 1999985363}
   - component: {fileID: 1999985362}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_107 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32882,9 +32584,9 @@ GameObject:
   - component: {fileID: 2004515448}
   - component: {fileID: 2004515447}
   - component: {fileID: 2004515446}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (88)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32991,9 +32693,9 @@ GameObject:
   - component: {fileID: 2004724956}
   - component: {fileID: 2004724955}
   - component: {fileID: 2004724954}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (102)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33100,9 +32802,9 @@ GameObject:
   - component: {fileID: 2008456132}
   - component: {fileID: 2008456131}
   - component: {fileID: 2008456130}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (172)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33209,9 +32911,9 @@ GameObject:
   - component: {fileID: 2012695150}
   - component: {fileID: 2012695149}
   - component: {fileID: 2012695148}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (215)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33318,9 +33020,9 @@ GameObject:
   - component: {fileID: 2033104757}
   - component: {fileID: 2033104756}
   - component: {fileID: 2033104755}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_22 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33427,9 +33129,9 @@ GameObject:
   - component: {fileID: 2052339490}
   - component: {fileID: 2052339489}
   - component: {fileID: 2052339488}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (232)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33536,9 +33238,9 @@ GameObject:
   - component: {fileID: 2065955989}
   - component: {fileID: 2065955988}
   - component: {fileID: 2065955987}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (113)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33645,9 +33347,9 @@ GameObject:
   - component: {fileID: 2086162437}
   - component: {fileID: 2086162436}
   - component: {fileID: 2086162435}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (186)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33754,9 +33456,9 @@ GameObject:
   - component: {fileID: 2087857586}
   - component: {fileID: 2087857585}
   - component: {fileID: 2087857584}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_107 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33863,9 +33565,9 @@ GameObject:
   - component: {fileID: 2098883145}
   - component: {fileID: 2098883144}
   - component: {fileID: 2098883143}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (137)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33972,9 +33674,9 @@ GameObject:
   - component: {fileID: 2107452395}
   - component: {fileID: 2107452394}
   - component: {fileID: 2107452393}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (134)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34080,9 +33782,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2110885274}
   - component: {fileID: 2110885273}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_151 (26)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34163,9 +33865,9 @@ GameObject:
   - component: {fileID: 2120133615}
   - component: {fileID: 2120133614}
   - component: {fileID: 2120133613}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (209)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34272,9 +33974,9 @@ GameObject:
   - component: {fileID: 2121360188}
   - component: {fileID: 2121360187}
   - component: {fileID: 2121360186}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (164)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34381,9 +34083,9 @@ GameObject:
   - component: {fileID: 2124039912}
   - component: {fileID: 2124039911}
   - component: {fileID: 2124039910}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (171)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34490,9 +34192,9 @@ GameObject:
   - component: {fileID: 2126680293}
   - component: {fileID: 2126680292}
   - component: {fileID: 2126680291}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (194)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34599,9 +34301,9 @@ GameObject:
   - component: {fileID: 2131998006}
   - component: {fileID: 2131998005}
   - component: {fileID: 2131998004}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (221)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34708,9 +34410,9 @@ GameObject:
   - component: {fileID: 2132502483}
   - component: {fileID: 2132502482}
   - component: {fileID: 2132502481}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (86)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34817,9 +34519,9 @@ GameObject:
   - component: {fileID: 2137468644}
   - component: {fileID: 2137468643}
   - component: {fileID: 2137468642}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TX Tileset Ground_99 (75)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34936,7 +34638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3289623417501096307, guid: cbc19e73f94e9164d9aab56572b81a2e, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3289623417501096307, guid: cbc19e73f94e9164d9aab56572b81a2e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -35020,76 +34722,3 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 0e722fb8921845b49bdabe85192950cb, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbc19e73f94e9164d9aab56572b81a2e, type: 3}
---- !u!1001 &6386434518601771585
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6386434518744758995, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.39
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386434518778362580, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386434518778362580, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -17.101
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.223
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386434518778362585, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386434518778362586, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
-      propertyPath: jumpForce
-      value: 5000
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386434518778362586, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}
-      propertyPath: joystickMovement
-      value: 
-      objectReference: {fileID: 319936734}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 285db7b1c3152d74f8fa19f2cdcde1cc, type: 3}

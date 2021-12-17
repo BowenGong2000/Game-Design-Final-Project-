@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ForestBoss : MonoBehaviour
 {
@@ -108,6 +109,7 @@ public class ForestBoss : MonoBehaviour
         if (PublicVars.health <= 0)
         {
             Destroy(this.gameObject);
+            SceneManager.LoadScene("Cave-1");
         }
     }
     

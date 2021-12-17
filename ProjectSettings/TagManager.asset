@@ -12,6 +12,8 @@ TagManager:
   - DoubleJump
   - Bullet
   - Leave
+  - CaveBoss
+  - Burning
   layers:
   - Default
   - TransparentFX

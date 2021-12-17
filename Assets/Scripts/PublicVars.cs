@@ -14,4 +14,7 @@ public class PublicVars : MonoBehaviour
     public static bool blow = false;
     
     public static bool phase3 = false;
+
+    // cave boss
+    public static int hp  = 100;
 }
