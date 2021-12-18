@@ -43,6 +43,7 @@ public class Player : MonoBehaviour
     public float reX;
     public float reY;
     public float posY;
+    private float reverse = 1;
 
 
     void Start()
@@ -109,7 +110,13 @@ public class Player : MonoBehaviour
         _audioSource.PlayOneShot(bulletSnd);
         GameObject newbullet = Instantiate(bulletPrefab, spawnPos.position, 
                 Quaternion.Euler(0, 0, 1));
-        newbullet.GetComponent<Rigidbody2D>().velocity = spawnPos.right * bulletForce; 
+        if (!facingLeft){
+            reverse = -1;
+        }
+        else{
+            reverse = 1;
+        }
+        newbullet.GetComponent<Rigidbody2D>().velocity = reverse * spawnPos.right * bulletForce; 
         yield return new WaitForSeconds(0.03f);
         playerAnimator.SetBool("isAttack", false);
     }
